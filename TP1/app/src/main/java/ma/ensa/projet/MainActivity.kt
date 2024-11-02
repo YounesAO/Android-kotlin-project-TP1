@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         val message = findViewById<EditText>(R.id.txtMessage)
         val envoyer = findViewById<Button>(R.id.buttonSubmit)
         val type = findViewById<Spinner>(R.id.complaintTypeSpinner)
-
+        val reset = findViewById<Button>(R.id.resetButton)
         envoyer.setOnClickListener {
 
             val nomtxt = nom.text.toString().trim()
@@ -34,6 +34,11 @@ class MainActivity : AppCompatActivity() {
                 showAlertDialog("Erreur", "Veuillez remplir tous les champs")
             }
         }
+        reset.setOnClickListener{
+                nom.text.clear()
+                email.text.clear()
+                message.text.clear()
+            }
     }
 
     private fun showAlertDialog(title: String, message: String) {
