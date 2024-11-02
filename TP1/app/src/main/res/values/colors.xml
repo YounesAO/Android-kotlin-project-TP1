@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF6F61</color>
+    <color name="colorPrimaryDark">#D44F3A</color>
+    <color name="colorAccent">#6D4C41</color>
+
+    <color name="backgroundColor">#FFFFFF</color>
+    <color name="headerTextColor">#FF5722</color>
+    <color name="instructionsTextColor">#757575</color>
+    <color name="labelColor">#FF9F81</color>
+    <color name="inputTextColor">#212121</color>
+
+    <color name="buttonColor">#4CAF50</color>
+    <color name="resetButtonColor">#F44336</color>
+    <color name="buttonTextColor">#FFFFFF</color>
+
+    <color name="backgroundColorDark">#121212</color>
+    <color name="headerTextColorDark">#FFFFFF</color>
+    <color name="instructionsTextColorDark">#DDDDDD</color>
+    <color name="labelColorDark">#BBBBBB</color>
+    <color name="inputTextColorDark">#FFFFFF</color>
+</resources>

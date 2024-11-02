@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">TP1</string>
+
+    <string name="header_text">Réclamation</string>
+    <string name="instructions_text">Veuillez remplir le formulaire ci-dessous pour soumettre votre réclamation.</string>
+
+    <string name="type_label">Type de Réclamation</string>
+    <string name="name_label">Nom</string>
+    <string name="email_label">Email</string>
+    <string name="message_label">Message</string>
+
+    <string name="name_hint">Entrez votre nom</string>
+    <string name="email_hint">Entrez votre email</string>
+    <string name="message_hint">Décrivez votre réclamation</string>
+    <string name="complaint_type_label">Type de Réclamation:</string>
+    <string-array name="complaint_types">
+        <item>Problème de service</item>
+        <item>Facture incorrecte</item>
+        <item>Retard de livraison</item>
+        <item>Qualité du produit</item>
+        <item>Service client insatisfaisant</item>
+    </string-array>
+    <string name="send_button_text">Envoyer</string>
+    <string name="reset_button_text">Réinitialiser</string>
+
+    <string name="message_succes">Réclamation envoyée par success</string>
+    <string name="retournebtn">Retourner</string>
+
+</resources>

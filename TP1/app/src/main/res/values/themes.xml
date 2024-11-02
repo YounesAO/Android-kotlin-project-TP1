@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TP1" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/buttonTextColor</item>
+
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="colorSecondaryVariant">@color/colorAccent</item>
+        <item name="colorOnSecondary">@color/buttonTextColor</item>
+
+        <item name="colorOnBackground">@color/inputTextColor</item>
+
+        <item name="colorSurface">@color/backgroundColor</item>
+        <item name="colorOnSurface">@color/inputTextColor</item>
+
+        <item name="android:windowBackground">@color/backgroundColor</item>
+
+        <!-- Customize typography -->
+        <item name="android:textColor">@color/inputTextColor</item>
+        <item name="android:textColorPrimary">@color/inputTextColor</item>
+        <item name="android:textColorSecondary">@color/instructionsTextColor</item>
+
+        <!-- Customize button styles -->
+        <item name="buttonStyle">@style/Widget.Material3.Button</item>
+    </style>
+
+    <style name="Theme.TP1" parent="Base.Theme.TP1">
+        <!-- Additional customizations for your theme can go here. -->
+    </style>
+</resources>
